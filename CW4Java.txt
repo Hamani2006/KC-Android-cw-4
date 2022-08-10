@@ -6,8 +6,45 @@
 
         // اكتب دالة عملية الجمع هنا
 
+public class Main
+{
+    public static int totalGrade(int num1, int num2),{
+    int x = num1 + num2;
+    return x;
+    
+} public static void temperature(int num1){
+    
+    
+    
+}
+        System.out.println(x);
+}    
 
         //اكتب كود تفعيل الزر هنا
+import ...
 
+public class MainActivity extends AppCompactActivity {
+    
+    @Override
+    protected void on create(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        TextView textView1 = findViewById(R.id.textView1);
+        TextView textView2 = findViewById(R.id.textView2);
+        TextView editView1 = findViewById(R.id.editView1);
+        editView editView2 = findViewById(R.id.editView2);
+        Button button = findViewById(R.id.textView1);
+        
+        button.setOnClickListener(new View.setOnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int num1 = Integer.parseInt(editView1.getText().toString()):
+                int num2 = Integer.parseInt(editView2.getText().toString()):
+                int button = num1 + num2;
+                textView2.setText(String.valueOf(button));
+            }
+        });
+    }
+}
 
 
